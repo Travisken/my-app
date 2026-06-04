@@ -107,7 +107,7 @@ export default function Home() {
       <div className="min-h-screen bg-[#9c9c9c] dark:bg-[#171823] font-[Josefin_Sans] relative">
         {/* HERO */}
         <div className="absolute top-0 left-0 right-0 h-75 bg-linear-to-br from-indigo-600 via-purple-500 to-pink-500" />
-        Home-page
+        Home-
         <main className="relative max-w-xl mx-auto px-6 pt-16 pb-20">
           {/* HEADER */}
           <Header />
