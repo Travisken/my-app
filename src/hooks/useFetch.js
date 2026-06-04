@@ -6,10 +6,21 @@ import { useEffect, useState } from "react";
  * - Reusable data fetching logic
  * - Handles loading + error automatically
  */
-export default function useFetch(url) {
+// export default function Memo(){
+// const result = useMemo(()=> {
+//   return data;
+//   })
+
+//   return result;
+
+// }
+
+export function useFetch(url) {
   const [data, setData] = useState(null); // stores API data
   const [isLoading, setIsLoading] = useState(true); // loading state
   const [error, setError] = useState(null); // error state
+  
+
 
   useEffect(() => {
     const controller = new AbortController(); // used for cleanup
