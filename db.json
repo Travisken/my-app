@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "id": "goE7_j6O8Jg",
+      "title": "work",
+      "completed": false
+    },
+    {
+      "id": "bL8mg1pEIro",
+      "title": "teach",
+      "completed": false
+    },
+    {
+      "id": "yw4S_X_W2DA",
+      "title": "teach",
+      "completed": false
+    },
+    {
+      "id": "W12ZXOYWDCQ",
+      "title": "teacg",
+      "completed": false
+    },
+    {
+      "id": "4dTVa_S01Fk",
+      "title": "task 4",
+      "completed": false
+    },
+    {
+      "id": "kFC6ycJmB4U",
+      "title": "task5",
+      "completed": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
