@@ -20,6 +20,7 @@ export default function Home() {
 
   const activeCount = tasks.filter((t) => !t.completed).length;
 
+  
   const filteredTasks = tasks.filter((t) => {
     if (filter === "active") return !t.completed;
     if (filter === "completed") return t.completed;
