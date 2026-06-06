@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 export default function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/" element={<GridPage />}></Route>
